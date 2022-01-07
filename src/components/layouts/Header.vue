@@ -1,19 +1,19 @@
 <template>
-  <div class="header">
+  <header class="header">
     <Logo />
-    <Navbar />
-  </div>
+    <!-- <Navbar /> -->
+  </header>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Navbar from '@/components/layouts/Navbar.vue';
 import Logo from '@/components/layouts/Logo.vue';
+// import Navbar from '@/components/layouts/Navbar.vue';
 
 export default defineComponent({
   name: 'Header',
   components: {
-    Navbar,
     Logo,
+    // Navbar,
   },
 });
 </script>
@@ -22,6 +22,6 @@ export default defineComponent({
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 100px 20px 100px;
+  padding: 40px 0px 20px 0px;
 }
 </style>
