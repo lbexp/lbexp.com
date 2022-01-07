@@ -1,6 +1,6 @@
 <template>
   <h2 class="title">
-    I'm Fiqar 'Lbexp' Aprialim
+    I'm Fiqar 'lbexp' Aprialim
   </h2>
   <p class="desc">
     Currently pursuing my career as software engineer in a Makassar based software house.
@@ -16,6 +16,7 @@ export default defineComponent({
 <style scoped lang="scss">
 .title {
   font-size: 4rem;
+  margin-bottom: 0.75rem;
 };
 
 .desc {
