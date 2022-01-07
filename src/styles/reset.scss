@@ -49,3 +49,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+// Custom
+button {
+	border: none;
+	padding: unset;
+	margin: 0;
+	text-decoration: none;
+	background: unset;
+	color: unset;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
