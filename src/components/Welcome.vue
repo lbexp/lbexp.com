@@ -1,9 +1,10 @@
 <template>
   <h2 class="title">
-    I'm Fiqar 'lbexp' Aprialim
+    I'm Fiqar 'lbexp' Aprialim,
   </h2>
   <p class="desc">
-    Currently pursuing my career as software engineer in a Makassar based software house.
+    Currently pursuing my career as software engineer in a
+    Makassar based software house (Indonesia 🇮🇩).
   </p>
 </template>
 <script lang="ts">
@@ -15,11 +16,11 @@ export default defineComponent({
 </script>
 <style scoped lang="scss">
 .title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 0.75rem;
 };
 
 .desc {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 </style>
