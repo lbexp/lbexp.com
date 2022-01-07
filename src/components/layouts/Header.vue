@@ -1,19 +1,19 @@
 <template>
   <header class="header">
     <Logo />
-    <!-- <Navbar /> -->
+    <Navbar />
   </header>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Logo from '@/components/layouts/Logo.vue';
-// import Navbar from '@/components/layouts/Navbar.vue';
+import Navbar from '@/components/layouts/Navbar.vue';
 
 export default defineComponent({
   name: 'Header',
   components: {
     Logo,
-    // Navbar,
+    Navbar,
   },
 });
 </script>
