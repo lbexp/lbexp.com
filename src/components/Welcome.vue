@@ -4,9 +4,13 @@
   </h2>
   <p class="desc">
     Currently pursuing my career as software engineer in a
-    Makassar based software house (Indonesia 🇮🇩).
+    local software agency.
+  </p>
+  <p class="more-desc">
+    Based in Makassar, Indonesia 🇮🇩.
   </p>
 </template>
+
 <script lang="ts">
 import { defineComponent } from 'vue';
 
@@ -14,6 +18,7 @@ export default defineComponent({
   name: 'Welcome',
 });
 </script>
+
 <style scoped lang="scss">
 .title {
   font-size: 3.5rem;
@@ -21,6 +26,11 @@ export default defineComponent({
 };
 
 .desc {
+  font-size: 1.5rem;
+}
+
+.more-desc {
+  margin-top: 0.5rem;
   font-size: 1.5rem;
 }
 </style>
