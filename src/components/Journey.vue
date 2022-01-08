@@ -69,6 +69,11 @@ export default defineComponent({
   flex: 1;
   overflow: auto;
   white-space: nowrap;
-  padding-bottom: 20px;
+  // padding-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 </style>
