@@ -54,23 +54,23 @@ export default defineComponent({
   font-size: 1.5rem;
 }
 
-.item-journey-header {
-  margin-bottom: 1rem;
-}
+// .item-journey-header {
+//   margin-bottom: 1rem;
+// }
 
 .item-journey-title {
   font-size: 2rem;
   font-weight: 300;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .item-journey-subtitle {
   font-size: 1.5rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .item-journey-time {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
