@@ -1,6 +1,6 @@
 <template>
   <h2 class="title">
-    Projects I've contributed on:
+    Projects I've professionally worked on:
   </h2>
   <div class="content">
     <ItemProject v-for="(item, key) in projectsData" :key="key" :data="{ index: key, ...item }" />
