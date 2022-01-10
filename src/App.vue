@@ -23,10 +23,20 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .app {
-  padding: 0px 100px;
+  padding: 0px 20px;
 }
 
 .main {
-  padding: 80px 0px 40px 0px;
+  padding: 40px 0px 20px 0px;
+}
+
+@media screen and (min-width: 769px) {
+  .app {
+    padding: 0px 100px;
+  }
+
+  .main {
+    padding: 80px 0px 40px 0px;
+  }
 }
 </style>

@@ -47,7 +47,7 @@ export default defineComponent({
 .item-journey-wrapper {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .item-journey-arrow {
@@ -59,22 +59,54 @@ export default defineComponent({
 // }
 
 .item-journey-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .item-journey-subtitle {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.375rem;
+  margin-bottom: 0.25rem;
 }
 
 .item-journey-time {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 300;
 }
 
-.item-journey-desc {
-  font-size: 1.5rem;
+// .item-journey-desc {
+//   font-size: 1.125rem;
+// }
+
+@media screen and (min-width: 769px) {
+  .item-journey-wrapper {
+    gap: 3rem;
+  }
+
+  .item-journey-arrow {
+    font-size: 1.5rem;
+  }
+
+  // .item-journey-header {
+  //   margin-bottom: 1rem;
+  // }
+
+  .item-journey-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .item-journey-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .item-journey-time {
+    font-size: 1.25rem;
+  }
+
+  // .item-journey-desc {
+  //   font-size: 1.5rem;
+  // }
 }
 </style>

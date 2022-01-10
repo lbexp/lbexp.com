@@ -59,15 +59,15 @@ export default defineComponent({
 .item-project-wrapper {
   display: flex;
   align-items: start;
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 .item-journey-app {
-  font-size: 4rem;
+  font-size: 1.75rem;
 }
 
 .item-project-content-wrapper {
-  width: 50%;
+  width: 100%;
 }
 
 .item-project-header {
@@ -75,17 +75,17 @@ export default defineComponent({
 }
 
 .item-project-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
 }
 
 .item-project-stack {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 
 .item-project-desc {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 300;
 }
 
@@ -95,5 +95,36 @@ export default defineComponent({
 
 .justify-end {
   justify-content: end;
+}
+
+@media screen and (min-width: 769px) {
+  .item-project-wrapper {
+    gap: 2.5rem;
+  }
+
+  .item-journey-app {
+    font-size: 4rem;
+  }
+
+  .item-project-content-wrapper {
+    width: 50%;
+  }
+
+  .item-project-header {
+    margin-bottom: 1rem;
+  }
+
+  .item-project-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .item-project-stack {
+    font-size: 1.5rem;
+  }
+
+  .item-project-desc {
+    font-size: 1.25rem;
+  }
 }
 </style>

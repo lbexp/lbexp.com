@@ -22,6 +22,12 @@ export default defineComponent({
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 0px 20px 0px;
+  padding: 20px 0px 10px 0px;
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    padding: 40px 0px 20px 0px;
+  }
 }
 </style>
