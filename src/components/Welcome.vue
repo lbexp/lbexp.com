@@ -21,16 +21,32 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .title {
-  font-size: 3.5rem;
-  margin-bottom: 0.75rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 };
 
 .desc {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .more-desc {
-  margin-top: 0.5rem;
-  font-size: 1.5rem;
+  margin-top: 0.25rem;
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 769px) {
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 0.75rem;
+  };
+
+  .desc {
+    font-size: 1.5rem;
+  }
+
+  .more-desc {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
 }
 </style>

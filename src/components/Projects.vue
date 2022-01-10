@@ -71,12 +71,24 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .title {
-  font-size: 3.5rem;
-  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 };
 
 .content {
   display: grid;
   gap: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  };
+
+  .content {
+    display: grid;
+    gap: 2rem;
+  }
 }
 </style>

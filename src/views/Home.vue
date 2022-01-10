@@ -33,6 +33,12 @@ export default defineComponent({
 
 <style scoped lang="scss">
 section {
-  padding: 60px 0px;
+  padding: 30px 0px;
+}
+
+@media screen and (min-width: 769px) {
+  section {
+    padding: 60px 0px;
+  }
 }
 </style>

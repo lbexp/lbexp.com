@@ -58,22 +58,32 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
-.title {
-  font-size: 3.5rem;
-  margin-bottom: 3rem;
-};
-
-.content {
-  display: flex;
-  gap: 3rem;
-  flex: 1;
-  overflow: auto;
-  white-space: nowrap;
-  // padding-bottom: 20px;
-}
-
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+  flex: 1;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 769px) {
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  };
+
+  .content {
+    gap: 3rem;
+  }
 }
 </style>
